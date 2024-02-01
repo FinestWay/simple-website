@@ -1,0 +1,14 @@
+.invert{
+    filter: invert(1);
+}
+
+.login:hover{
+    background: grey;
+    color: white;
+    border-color: aliceblue;
+}
+
+.signup:hover{
+    background-color: white;
+    color: red;
+}
