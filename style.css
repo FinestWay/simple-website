@@ -208,5 +208,12 @@ span:hover {
         margin-right: 10px;
     }
 
+    .photo{
+        width: 150px;
+        height: 200px;
+    }
+
+
+
 
 }
