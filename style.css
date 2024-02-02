@@ -181,13 +181,22 @@ span:hover {
 }
 
 .icons img:hover {
-    scale: 1.1;
+    scale: 1.15;
     cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
     * {
         font-size: 13px;
+    }
+
+    .photos .photo {
+        position: absolute;
+        width: 220px;
+        height: 270px;
+        border-radius: 40px;
+        border: none;
+        object-fit: cover;
     }
 
     #section-1 h1 {
@@ -207,5 +216,6 @@ span:hover {
         margin-top: 50px;
         margin-left: 10px;
         margin-right: 10px;
+        font-size: 10;
     }
 }
