@@ -8,6 +8,20 @@ main {
     width: 100%;
 }
 
+body {
+    color: white;
+    background-color: rgb(43, 43, 82);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+}
+
 nav {
     /* position:fixed; */
     padding: 10px 0px;
@@ -20,6 +34,32 @@ nav {
     width: 100%;
     font-size: 17px;
     z-index: 30;
+}
+
+.first ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 11px 0px;
+    list-style-type: none;
+}
+
+.first a{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.first a {
+    transition: all 0.3s ease;
+    color: rgb(231, 219, 219);
+    background-color: rgba(139, 96, 96, 0.26);
+}
+
+.first a:hover{
+    color: black;
+    background-color: rgb(230, 140, 140);
 }
 
 .menu {
@@ -196,12 +236,8 @@ span:hover {
     cursor: pointer;
 }
 
-body {
-    color: white;
-    background-color: rgb(36, 36, 82);
-}
-
 .second{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
